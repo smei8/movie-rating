@@ -5,7 +5,7 @@ import { LoginComponent } from './login/login.component';
 import { MoviesComponent } from './movies/movies.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'login', pathMatch: 'full' },
+  // { path: '', redirectTo: 'login', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'movies', component: MoviesComponent },
   { path: '**', component: LoginComponent }
